@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Development Academy - Plans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#plans">Plans</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h1>Welcome to T Development Academy</h1>
+        <p>Choose your plan and start learning today!</p>
+    </section>
+
+    <section id="plans">
+        <h2>Our Plans</h2>
+        <div class="plan-container">
+            <div class="plan" id="basic-plan">
+                <h3>Basic Plan</h3>
+                <p>$10/month</p>
+                <p>Basic features for beginners.</p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="your_paypal_email@example.com">
+                    <input type="hidden" name="item_name" value="Basic Plan">
+                    <input type="hidden" name="amount" value="10.00">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="return" value="http://yourwebsite.com/thank_you.html">
+                    <input type="hidden" name="cancel_return" value="http://yourwebsite.com/cancel.html">
+                    <input type="submit" value="Buy Basic Plan">
+                </form>
+            </div>
+            <div class="plan" id="standard-plan">
+                <h3>Standard Plan</h3>
+                <p>$25/month</p>
+                <p>More features for intermediate users.</p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="your_paypal_email@example.com">
+                    <input type="hidden" name="item_name" value="Standard Plan">
+                    <input type="hidden" name="amount" value="25.00">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="return" value="http://yourwebsite.com/thank_you.html">
+                    <input type="hidden" name="cancel_return" value="http://yourwebsite.com/cancel.html">
+                    <input type="submit" value="Buy Standard Plan">
+                </form>
+            </div>
+            <div class="plan" id="premium-plan">
+                <h3>Premium Plan</h3>
+                <p>$50/month</p>
+                <p>All features for advanced users.</p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="business" value="your_paypal_email@example.com">
+                    <input type="hidden" name="item_name" value="Premium Plan">
+                    <input type="hidden" name="amount" value="50.00">
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="return" value="http://yourwebsite.com/thank_you.html">
+                    <input type="hidden" name="cancel_return" value="http://yourwebsite.com/cancel.html">
+                    <input type="submit" value="Buy Premium Plan">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 T Development Academy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // JavaScript kod može ići ovde za dodatne funkcionalnosti
+        console.log('Stranica je učitana!');
+    });
+</script>
